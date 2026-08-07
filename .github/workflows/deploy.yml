@@ -30,3 +30,5 @@ jobs:
         env:
              RUNNER_TRACKING_ID: ""
       - run: nohup java -jar build/libs/SpringThymeLiafDockerProject-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
+        env:
+             RUNNER_TRACKING_ID: ""
